@@ -1,0 +1,14 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          client-1:
+            provider: spring
+            client-id: my-client
+            client-secret: my-secret
+            authorization-grant-type: client_credentials
+            scope: user.read
+        provider:
+          spring:
+            issuer-uri: http://localhost:9000
