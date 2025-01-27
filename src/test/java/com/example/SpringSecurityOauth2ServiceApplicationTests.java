@@ -1,4 +1,4 @@
-package org.springframework.security.springsecurityoauth2service;
+package com.example;
 
 import org.junit.jupiter.api.Test;
 
